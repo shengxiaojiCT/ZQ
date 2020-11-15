@@ -32,7 +32,7 @@ jobs:
         if: env.YOUTH_READ
         run: |
           cd ~/Scripts
-          node Task/youth.js
+          node Task/Youth_Read.js
         env:
           YOUTH_READ: ${{ secrets.YOUTH_READ }}
 
@@ -40,7 +40,7 @@ jobs:
         if: env.YOUTH_READ2
         run: |
           cd ~/Scripts
-          node Task/youth.js
+          node Task/Youth_Read.js
         env:
           YOUTH_READ: ${{ secrets.YOUTH_READ2 }}
           
@@ -48,7 +48,7 @@ jobs:
         if: env.YOUTH_READ3
         run: |
           cd ~/Scripts
-          node Task/youth.js
+          node Task/Youth_Read.js
         env:
           YOUTH_READ: ${{ secrets.YOUTH_READ3 }}
           
@@ -56,6 +56,6 @@ jobs:
         if: env.YOUTH_READ4
         run: |
           cd ~/Scripts
-          node Task/youth.js
+          node Task/Youth_Read.js
         env:
           YOUTH_READ: ${{ secrets.YOUTH_READ4 }}
